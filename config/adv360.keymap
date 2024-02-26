@@ -17,13 +17,6 @@
             bindings = <&kp RET>;
         };
 
-        cs_test: cs_test {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LA(LEFT_GUI) &kp RIGHT>;
-            label = "cs_testt";
-        };
-
         #endif
 
         hm: homerow_mods {
